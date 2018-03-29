@@ -61,7 +61,7 @@ public class RBasePresenter<T extends IRaseView> implements IRBasePresenter {
                  if(disposableMap.containsKey(tag)){
                      disposableMap.remove(tag);
                      compositeDisposable.remove(disposableMap.get(tag));
-                     
+
                  }
              }
          }

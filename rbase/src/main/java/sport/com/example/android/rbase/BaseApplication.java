@@ -21,4 +21,15 @@ public class BaseApplication extends Application {
     protected void onFastInit(){
 
     }
+
+    public static BaseApplication getAppContext(){
+        return mAppContext;
+    }
+    /**
+     * 初始化Log打印配置
+     */
+    private void initLog(){
+
+
+    }
 }
